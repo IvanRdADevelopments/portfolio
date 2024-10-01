@@ -10,11 +10,11 @@ export default function Navbar() {
       <nav className="navbar-box color-mineShaft-200">
         <section className="logo-box">
           <Image
-            src="/public/img/iconograma-nobg.png"
+            src="/img/iconograma-nobg.png"
             alt="Iconograma IvanRdA"
             title="Volver arriba"
-            width={80}
-            height={80}
+            width={120}
+            height={120}
           />
         </section>
 
