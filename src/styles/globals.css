@@ -7,24 +7,28 @@
   src: url("../../public/fonts/Poppins-Italic.ttf") format("truetype");
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
+}
+
+.main-page-box {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-box {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.boxed-section {
+  display: flex;
+  flex-direction: row;
 }
 
 @layer utilities {

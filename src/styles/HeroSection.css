@@ -1,0 +1,28 @@
+.left-hero-box {
+    width: 70%;
+    z-index: 1;
+    height: 100vh;
+}
+
+.right-hero-box {
+    width: 70%;
+    z-index: 2;
+}
+
+.social-media-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-social-box {
+    background: linear-gradient(to bottom right, #78dae8, #1da4bd);
+    padding: 5px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
