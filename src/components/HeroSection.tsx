@@ -12,8 +12,6 @@ export default function HeroSection() {
       <article className="right-hero-box">
         <RightHeroBox />
       </article>
-
-      <footer className="hero-footer-box"></footer>
     </>
   );
 }

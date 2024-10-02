@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import HeroSectionFooter from "@/components/HeroSectionFooter";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         className="page-box boxed-section"
         id="hero">
         <HeroSection />
+        <HeroSectionFooter />
       </section>
 
       <section
