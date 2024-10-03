@@ -6,8 +6,8 @@ export default function RightHeroBox() {
       <Image
         src="/img/picture-nobg.png"
         alt="Iván Rodríguez"
-        width={400}
-        height={400}
+        width={700}
+        height={700}
         className="main-big-pic"
       />
     </div>

@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <nav className="navbar-box text-greyCorp-700">
+    <nav className="navbar-box">
       <section className="logo-box">
         <Link
           to="hero"

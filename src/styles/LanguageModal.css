@@ -31,13 +31,13 @@
     color: var(--bluecorp-300);
     font-size: 16px;
     transition: all 0.3s;
-    border-left: 3px solid var(--greycorp-300);
-    border-right: 3px solid var(--greycorp-300);
+    border-left: 2px solid var(--greycorp-300);
+    border-right: 2px solid var(--greycorp-300);
   }
   
   .modal-btn:hover {
-    border-bottom: 3px solid var(--greycorp-300);
-    border-top: 3px solid var(--greycorp-300);
+    border-bottom: 2px solid var(--greycorp-300);
+    border-top: 2px solid var(--greycorp-300);
     border-left: none;
     border-right: none;
   }

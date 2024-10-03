@@ -4,13 +4,14 @@ nav{
     position: fixed;
     top: 0;
     z-index: 3000;
-    font-family: var(--poppins-reg);
+    font-family: var(--poppins-bold);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 20px;
-    gap: 4px;
+    gap: 20px;
     align-items: center;
+    color: var(--bluecorp-900);
 }
 
 .logo-box {
