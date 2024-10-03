@@ -11,7 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        jellyBean: {
+        blueCorp: {
           50: '#eefcfd',
           100: '#d4f6f9',
           200: '#afebf2',
@@ -24,7 +24,7 @@ const config: Config = {
           900: '#1f4a5a',
           950: '#0f303d',
         },
-        mineShaft: {
+        greyCorp: {
         50: '#f5f6f6',
         100: '#e5e7e8',
         200: '#cfd2d2',

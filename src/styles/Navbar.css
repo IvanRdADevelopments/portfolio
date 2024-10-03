@@ -4,7 +4,7 @@ nav{
     position: fixed;
     top: 0;
     z-index: 3000;
-    font-family: "Poppinsita";
+    font-family: var(--poppins-reg);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav{
 }
 
 .nav-element:hover {
-    color: yellow;
+    color: var(--bluecorp-700);
 }
 
 ul{

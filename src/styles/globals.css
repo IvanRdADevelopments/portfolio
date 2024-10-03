@@ -3,8 +3,70 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Poppinsita";
-  src: url("../../public/fonts/Poppins-Italic.ttf") format("truetype");
+  font-family: "Poppinsbold";
+  src: url("../../public/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppinsreg";
+  src: url("../../public/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppinslight";
+  src: url("../../public/fonts/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Latobold";
+  src: url("../../public/fonts/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Latoreg";
+  src: url("../../public/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Latolight";
+  src: url("../../public/fonts/Lato-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Robotobold";
+  src: url("../../public/fonts/RobotoCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Robotoreg";
+  src: url("../../public/fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Robotolight";
+  src: url("../../public/fonts/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+:root {
+  --bluecorp-300: #78dae8;
+  --bluecorp-500: #1da4bd;
+  --bluecorp-700: #1d6b81;
+  --bluecorp-800: #20586a;
+  --bluecorp-900: #1f4a5a;
+  --greycorp-100: #e5e7e8;
+  --greycorp-200: #cfd2d2;
+  --greycorp-300: #adb2b3;
+  --greycorp-500: #686f72;
+  --greycorp-700: #4c5152;
+  --poppins-reg: "Poppinsreg";
+  --poppins-light: "Poppinslight";
+  --poppins-bold: "Poppinsbold";
+  --lato-reg: "Latoreg";
+  --lato-light: "Latolight";
+  --lato-bold: "Latobold";
+  --roboto-reg: "Robotoreg";
+  --roboto-light: "Robotolight";
+  --roboto-bold: "Robotobold";
 }
 
 body {

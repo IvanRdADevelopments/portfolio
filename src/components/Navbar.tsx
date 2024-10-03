@@ -2,11 +2,11 @@
 
 import "@/styles/Navbar.css";
 import Image from "next/image";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
-    <nav className="navbar-box color-mineShaft-200">
+    <nav className="navbar-box text-greyCorp-700">
       <section className="logo-box">
         <Link
           to="hero"

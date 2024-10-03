@@ -21,15 +21,16 @@
     position: absolute;
     bottom: 0;
     height: 20%;
-    padding: 0px 10px;
-    background: linear-gradient(to bottom right, #e5e7e8, #adb2b3);
+    padding: 5px 10px;
+    background: linear-gradient(to bottom right, var(--greycorp-100), var(--greycorp-300));
     box-sizing: border-box;
     font-size: smaller;
     z-index: 1;
+    text-align: justify;
 }
 
 #about-me-subtitle {
-    font-family: "Poppinsita";
+    font-family: var(--poppins-reg);
     font-weight: 700;
     font-size: medium;
 }
@@ -39,17 +40,18 @@
     cursor: pointer;
     z-index: 300;
     padding: 0 10px 0 10px;
-    color: #4c5152;
+    color: var(--bluecorp-500);
     border-radius: 0px;
-    border-left: 3px solid #4c5152;
-    border-right: 3px solid #4c5152;
+    border-left: 3px solid var(--bluecorp-700);
+    border-right: 3px solid var(--bluecorp-700);
     transition: all 0.3s;
+    margin-top: 10px;
 }
 
 #about-me-button:hover {
-    color: yellow;
-    border-top: 3px solid #4c5152;
-    border-bottom: 3px solid #4c5152;
+    color: var(--bluecorp-700);
+    border-top: 3px solid var(--bluecorp-700);
+    border-bottom: 3px solid var(--bluecorp-700);
     border-left: none;
     border-right: none;
     scale: 1.05;
@@ -70,7 +72,7 @@
 }
 
 .logo-social-box {
-    background: linear-gradient(to bottom right, #78dae8, #1da4bd);
+    background: linear-gradient(to bottom right, var(--bluecorp-300), var(--bluecorp-500));
     height: 60px;
     display: flex;
     justify-content: center;
@@ -80,20 +82,20 @@
 }
 
 .hero-section-welcome {
-    font-family: "Poppinsita";
+    font-family: var(--poppins-reg);
     font-weight: 400;
     margin-bottom: 10px;
     font-size: medium;
 }
 
 .hero-section-title {
-    font-family: "Poppinsita";
+    font-family: var(--poppins-reg);
     font-weight: 700;
     font-size: xx-large;
 }
 
 .hero-section-subtitle {
-    font-family: "Poppinsita";
+    font-family: var(--poppins-reg);
     font-weight: 500;
     font-size: medium;
 

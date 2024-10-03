@@ -13,34 +13,42 @@
   
   .modal-content {
     z-index: 501;
-    background: white;
+    background: linear-gradient(to bottom right, var(--bluecorp-700), var(--bluecorp-900));
     padding: 2rem;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: var(--lato-reg);
+    color: var(--greycorp-300);
   }
   
   .modal-btn {
     z-index: 501;
     margin: 10px;
     padding: 10px 20px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #0073e6;
-    color: white;
+    color: var(--bluecorp-300);
     font-size: 16px;
+    transition: all 0.3s;
+    border-left: 3px solid var(--greycorp-300);
+    border-right: 3px solid var(--greycorp-300);
   }
   
   .modal-btn:hover {
-    background-color: #005bb5;
+    border-bottom: 3px solid var(--greycorp-300);
+    border-top: 3px solid var(--greycorp-300);
+    border-left: none;
+    border-right: none;
   }
   
   .modal-btn:last-child {
-    background-color: #ccc;
+    background-color: var(--greycorp-300);
+    color: var(--bluecorp-900);
   }
   
   .modal-btn:last-child:hover {
-    background-color: #aaa;
+    background-color: var(--greycorp-500);
+    color: var(--bluecorp-300);
   }
   
