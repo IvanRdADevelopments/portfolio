@@ -13,6 +13,10 @@ nav{
     align-items: center;
 }
 
+.logo-box {
+    cursor: pointer;
+}
+
 .nav-logo{
     width: 50%;
 }

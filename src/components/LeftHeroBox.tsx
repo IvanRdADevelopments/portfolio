@@ -2,10 +2,10 @@ import SocialLogoBox from "./SocialLogosBox";
 
 export default function LeftHeroBox() {
   return (
-    <div className="w-[100%] h-[80%] bg-gradient-to-br from-jellyBean-700 to-jellyBean-900 p-24">
-      <h4>Bienvenido, soy</h4>
-      <h1>Iván Rodríguez</h1>
-      <h3>Desarrollador Fullstack / Especialista técnico</h3>
+    <div className="w-[100%] h-[80%] bg-gradient-to-br from-jellyBean-700 to-jellyBean-900 p-24 flex flex-col justify-center items-start">
+      <h4 className="hero-section-welcome">Bienvenido...</h4>
+      <h1 className="hero-section-title">Iván Rodríguez</h1>
+      <h3 className="hero-section-subtitle">Desarrollador Fullstack / Especialista técnico</h3>
 
       <SocialLogoBox />
     </div>

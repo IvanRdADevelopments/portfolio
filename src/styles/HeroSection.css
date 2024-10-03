@@ -25,6 +25,7 @@
     background: linear-gradient(to bottom right, #e5e7e8, #adb2b3);
     box-sizing: border-box;
     font-size: smaller;
+    z-index: 1;
 }
 
 #about-me-subtitle {
@@ -49,11 +50,15 @@
     color: yellow;
     border-top: 3px solid #4c5152;
     border-bottom: 3px solid #4c5152;
+    border-left: none;
+    border-right: none;
+    scale: 1.05;
 }
 
 .main-big-pic {
     position: absolute;
     bottom: 0;
+    z-index: 3;
 }
 
 .social-media-box {
@@ -62,14 +67,34 @@
     gap: 10px;
     justify-content: start;
     align-items: center;
-    padding: 20px;
 }
 
 .logo-social-box {
     background: linear-gradient(to bottom right, #78dae8, #1da4bd);
-    padding: 5px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.hero-section-welcome {
+    font-family: "Poppinsita";
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.hero-section-title {
+    font-family: "Poppinsita";
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.hero-section-subtitle {
+    font-family: "Poppinsita";
+    font-weight: 500;
+    font-size: medium;
+
 }

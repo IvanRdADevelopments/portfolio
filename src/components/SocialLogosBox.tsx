@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import "@/styles/LanguageModal.css";
+import LanguageModal from "./LanguageModal";
 
 export default function SocialLogoBox() {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -78,16 +79,11 @@ export default function SocialLogoBox() {
         </div>
       </div>
 
-      {isModalOpen && (
-        <div className="modal-overlay">
-          <div className="modal-content">
-            <h2>Elige tu idioma</h2>
-            <button onClick={() => handleDownload("es")}>Español</button>
-            <button onClick={() => handleDownload("en")}>Inglés</button>
-            <button onClick={() => setIsModalOpen(false)}>Cancelar</button>
-          </div>
-        </div>
-      )}
+      <LanguageModal
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+        handleDownload={handleDownload} 
+      />
     </>
   );
 }
