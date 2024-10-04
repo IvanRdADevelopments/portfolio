@@ -1,0 +1,17 @@
+.about-section-box {
+    padding: 6rem;
+    margin: 3rem;
+    font-family: var(--poppins-bold);
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-main-title {
+    border: 3px solid var(--bluecorp-700);
+    width: 200px;
+}

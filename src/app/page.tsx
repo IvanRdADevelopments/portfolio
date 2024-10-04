@@ -1,3 +1,4 @@
+import AboutSection from "@/components/AboutSection";
 import HeroSection from "@/components/HeroSection";
 import HeroSectionFooter from "@/components/HeroSectionFooter";
 import Navbar from "@/components/Navbar";
@@ -17,7 +18,7 @@ export default function Home() {
       <section
         className="page-box"
         id="about">
-        {/* ABOUT SECTION COMPONETIZED */}
+        <AboutSection />
       </section>
       <section
         className="page-box"
